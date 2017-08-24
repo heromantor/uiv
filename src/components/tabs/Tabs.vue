@@ -38,6 +38,8 @@
   import Dropdown from '../dropdown/Dropdown.vue'
 
   export default {
+    inject: [ '$validator' ],
+
     components: {
       Dropdown
     },
